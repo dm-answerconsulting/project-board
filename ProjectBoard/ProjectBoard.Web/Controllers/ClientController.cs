@@ -3,7 +3,6 @@ using ProjectBoard.Core.Service.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ProjectBoard.Web.Controllers
@@ -11,9 +10,9 @@ namespace ProjectBoard.Web.Controllers
     public class ClientController : Controller
     {
         private readonly IService<Client> ClientService;
-        public ClientController(IService<Client> clientService)
+        public ClientController()
         {
-            ClientService = clientService;
+            ClientService = DependencyResolver.Current.GetService<IService<Client>>();
         }
 
         //

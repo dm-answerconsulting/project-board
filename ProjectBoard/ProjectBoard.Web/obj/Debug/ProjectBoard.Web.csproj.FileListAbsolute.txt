@@ -76,3 +76,6 @@ C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.
 C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\obj\Debug\ProjectBoard.Web.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\obj\Debug\ProjectBoard.Web.dll
 C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\obj\Debug\ProjectBoard.Web.pdb
+C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\bin\Ninject.Web.Mvc.pdb
+C:\Users\Daniel\Documents\GitHub\answer-project-board\ProjectBoard\ProjectBoard.Web\bin\Ninject.Web.Mvc.xml

@@ -9,14 +9,10 @@ namespace ProjectBoard.Web.Infrastructure
 {
     public class LocalNinjectDependencyResolver : IDependencyResolver
     {
-        #region .ctor
-
         public LocalNinjectDependencyResolver(StandardKernel kernel)
         {
             _kernel = kernel;
         }
-
-        #endregion
 
         public void Dispose()
         {

@@ -18,8 +18,7 @@ namespace ProjectBoard.Web
 
             RegisterServices(kernel);
 
-            config.DependencyResolver = new LocalNinjectDependencyResolver(kernel);
-
+            config.DependencyResolver = new LocalNinjectDependencyResolver(kernel);                        
         }
 
         public static void RegisterServices(IKernel kernel)

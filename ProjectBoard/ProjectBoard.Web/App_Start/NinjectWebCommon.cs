@@ -10,6 +10,7 @@ namespace ProjectBoard.Web
 
     using Ninject;
     using Ninject.Web.Common;
+    using System.Web.Mvc;
 
     public static class NinjectWebCommon 
     {
